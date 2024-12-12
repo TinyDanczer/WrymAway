@@ -1,0 +1,202 @@
+
+/*header*/
+.hero{
+    background-image: linear-gradient(rgba(152, 153, 252, 0.5), rgba(195, 121, 255, 0.5)) , url(images/nightsky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+body{
+    background-color:rgba(152, 153, 252, 0.5);
+}
+
+.Welcome 
+{
+    position: absolute;
+    padding: 10%;
+}
+
+.display-1 {
+    font-size: 4em;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.ballet{
+    font-family: "Ballet", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .fleur-de-leah-regular {
+    font-family: none;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .joinme{
+    text-align: center;
+
+  }
+
+/*Colors*/
+.bg-indigo{
+    background-color: #2e0041;
+}
+
+.text-indigo{
+    color: #2e0041;
+}
+
+.bg-light-indigo{
+    background-color: #d87eff;
+    color:#2e0041;
+}
+
+.text-navy
+{
+    color:#01002e;
+}
+
+.text-lightpink{
+    color:#e8befa;
+}
+
+.text-lightpurple{
+    color:#8c00ff;
+}
+
+/*Table*/
+table 
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 51);
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 51);
+    padding: 1%;
+    text-align: center;
+    font-weight: bold;
+}
+
+th
+{
+    background-color: rgb(88, 1, 122);
+    color: #fff;
+    font-size: 1.15em;
+    padding: 20px;
+    text-align: center;
+}
+
+tr:nth-child(odd) 
+{
+    background-color: rgba(144, 125, 214, 0.4);
+}
+
+tr:nth-child(even)
+{
+    background-color: rgba(201, 186, 255, 0.685);
+}
+
+/*Socials*/
+.socials
+{
+    height: 150px;
+    width: 150px;
+}
+
+/*Grid for mobile*/
+
+aside{
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.grid
+    {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 20px;
+        padding: 2%;
+        text-align: center;
+    }
+.hover a {
+    color:#8c00ff;
+}
+
+.desktop{
+    display: none;
+}
+
+video
+{
+    width: 100%;
+    height: auto;
+}
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) { 
+    
+    .welcome {
+        top: 40%;
+        left: 5%;
+        padding: 2em;
+    }
+
+    aside{
+        float: left;
+    }
+
+    .grid
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 1%;
+        text-align: center;
+    }
+
+    .fleur-de-leah-regular {
+        font-family: "Fleur De Leah", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) { 
+    
+    .hero {
+        background-position: left;
+    }
+    
+    .display-1 {
+        font-size: 8em;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: block;
+    }
+
+    .fleur-de-leah-regular {
+        font-family: "Fleur De Leah", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
