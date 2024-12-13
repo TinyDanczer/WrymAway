@@ -4,7 +4,7 @@
     background-image: linear-gradient(rgba(152, 153, 252, 0.5), rgba(195, 121, 255, 0.5)) , url(images/nightsky.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
 }
 
 body{
